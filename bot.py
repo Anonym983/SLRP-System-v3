@@ -16,11 +16,11 @@ from discord.ext import commands, tasks
 #    Farben sind Hex-Codes: 0x + 6 Zeichen (z. B. 0xFF0000 = Rot)
 # =====================================================================================
 DESIGN = {
-    "ICON": "🚨",                       # steht vor der Kopfzeile jedes Embeds
-    "BRAND": "NOTRUF HAMBURG",          # Kopfzeile, z. B. "🚨 NOTRUF HAMBURG · TEAM"
-    "FOOTER": "🚨 Notruf Hamburg RP",
-    "FOOTER_TEAM": "🚨 Notruf Hamburg · Teamverwaltung",
-    "FOOTER_TICKET": "🚨 Notruf Hamburg · Support",
+    "ICON": "🌟",                       # steht vor der Kopfzeile jedes Embeds
+    "BRAND": "Made by Timo",          # Kopfzeile, z. B. "🚨 NOTRUF HAMBURG · TEAM"
+    "FOOTER": "Powered by SLRP System",
+    "FOOTER_TEAM": "Powerded by SLRP System",
+    "FOOTER_TICKET": "Powered by SLRP System",
     "PRIMARY": 0xE53935,    # Hauptfarbe: Rot
     "SUCCESS": 0x2ECC71,    # Grün
     "ERROR": 0xB71C1C,      # Dunkelrot
@@ -31,9 +31,9 @@ DESIGN = {
     "BANNER": "",           # Optional: Link zu einem Bild, das unter Panels erscheint (leer = aus)
     "LOGO": "",             # Optional: Link zu einem kleinen Logo neben der Kopfzeile (leer = aus)
     "STATUS": "Notruf Hamburg RP",
-    "WELCOME_TEXT": "Willkommen auf dem Server, {user}! Lies dir die Regeln durch und verifiziere dich, dann kann es losgehen. 🚨",
-    "LEAVE_TEXT": "{name} hat den Server verlassen.",
-    "VERIFY_TEXT": "Tippe auf den Button, um dich zu verifizieren und den Server freizuschalten.",
+    "WELCOME_TEXT": "Willkommen auf dem Server SLRP, {user} Schau dir kurz das Regelwerk an, damit du vorbeireitet bist. Viel Spaß wünscht dir Streetlife-Rp|VC!⭐️",
+    "LEAVE_TEXT": "Tschüss {name} danke das du auf SLRP warst bis bald🌟",
+    "VERIFY_TEXT": "Verifiziere dich um den vollständigen Discord Server zu sehen danke!✅",
     "MAX_WARNS": 3,
 }
 
@@ -93,11 +93,13 @@ CFG = {
     "GIVEAWAY_PING_ROLE": 1557814818726084689,
     "PARTNER_PING_ROLE": 1557814801168601172,
     "FRAKTION_PING_ROLE": 1558577674534920192,
+    "TEAM_UPDATES_ROLE": 1557814798400356453,
+    "BAU_PING": 1557814796793942108,
     # Neu: bitte eintragen (0 = noch nicht eingerichtet)
-    "KONTROLL_CHANNEL": 0,   # Channel "Discord-Kontrolle": nur dort funktioniert "." und Annehmen (0 = überall)
-    "FRAKTION_CHANNEL": 0,   # Channel für Fraktions-Updates (0 = Team-Log-Channel)
-    "ANTRAG_CHANNEL": 0,     # Channel, in dem Anträge (Ausweis, Führerschein) landen (0 = Team-Log-Channel)
-    "RECHTE_CHANNEL": 0,     # Channel für Rechte-Anfragen (0 = Team-Log-Channel)
+    "KONTROLL_CHANNEL": 1557815068756943000,   # Channel "Discord-Kontrolle": nur dort funktioniert "." und Annehmen (0 = überall)
+    "FRAKTION_CHANNEL": 1557815085680824380,   # Channel für Fraktions-Updates (0 = Team-Log-Channel)
+    "ANTRAG_CHANNEL": 1558823634842165358,     # Channel, in dem Anträge (Ausweis, Führerschein) landen (0 = Team-Log-Channel)
+    "RECHTE_CHANNEL": 1557815260235436232,     # Channel für Rechte-Anfragen (0 = Team-Log-Channel)
 }
 
 # Self-Roles-Buttons: (Name, Emoji, Rollen-Schlüssel aus CFG)
@@ -108,6 +110,8 @@ PING_ROLLEN = [
     ("Partner", "🤝", "PARTNER_PING_ROLE"),
     ("Giveaway", "🎀", "GIVEAWAY_PING_ROLE"),
     ("Event", "🪩", "EVENT_PING_ROLE"),
+    ("Team Update", "🛡️", "TEAM_UPDATES_ROLE"),
+    ("Bau Updates", "🔨", "BAU_PING"),
 ]
 # =====================================================================================
 
