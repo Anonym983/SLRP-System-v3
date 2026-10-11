@@ -105,7 +105,7 @@ CFG = {
 # Self-Roles-Buttons: (Name, Emoji, Rollen-Schlüssel aus CFG)
 PING_ROLLEN = [
     ("News", "📣", "NEWS_PING_ROLE"),
-    ("RP", "🟩", "RP_PING_ROLE"),
+    ("RP Ping", "🟩", "RP_PING_ROLE"),
     ("Fraktion", "🏛️", "FRAKTION_PING_ROLE"),
     ("Partner", "🤝", "PARTNER_PING_ROLE"),
     ("Giveaway", "🎀", "GIVEAWAY_PING_ROLE"),
