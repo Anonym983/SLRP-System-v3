@@ -17,7 +17,7 @@ from discord.ext import commands, tasks
 # =====================================================================================
 DESIGN = {
     "ICON": "🌟",                       # steht vor der Kopfzeile jedes Embeds
-    "BRAND": "Made by Timo",          # Kopfzeile, z. B. "🚨 NOTRUF HAMBURG · TEAM"
+    "BRAND": "",          # Kopfzeile, z. B. "🚨 NOTRUF HAMBURG · TEAM"
     "FOOTER": "Powered by SLRP System",
     "FOOTER_TEAM": "Powerded by SLRP System",
     "FOOTER_TICKET": "Powered by SLRP System",
@@ -30,7 +30,7 @@ DESIGN = {
     "INFO": 0x3498DB,       # Blau (Infos)
     "BANNER": "",           # Optional: Link zu einem Bild, das unter Panels erscheint (leer = aus)
     "LOGO": "",             # Optional: Link zu einem kleinen Logo neben der Kopfzeile (leer = aus)
-    "STATUS": "Notruf Hamburg RP",
+    "STATUS": "Made by Timo [Developer] ",
     "WELCOME_TEXT": "Willkommen auf dem Server SLRP, {user} Schau dir kurz das Regelwerk an, damit du vorbeireitet bist. Viel Spaß wünscht dir Streetlife-Rp|VC!⭐️",
     "LEAVE_TEXT": "Tschüss {name} danke das du auf SLRP warst bis bald🌟",
     "VERIFY_TEXT": "Verifiziere dich um den vollständigen Discord Server zu sehen danke!✅",
